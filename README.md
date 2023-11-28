@@ -1,31 +1,18 @@
 # MovieFlix
-### [Project demo link](https://zen-ride-bc37b1.netlify.app/)
-![image](https://github.com/zorgonide/movieflix/assets/48021258/4e493b60-db11-43a7-ae16-f45d3c867870)
-![image](https://github.com/zorgonide/movieflix/assets/48021258/ad0ebef0-7207-469b-b29c-0d17495e45da)
-![image](https://github.com/zorgonide/movieflix/assets/48021258/82c6e2cd-14f5-4ace-8517-72261bfcbe49)
-![image](https://github.com/zorgonide/movieflix/assets/48021258/dec4d1c8-9311-4180-ab64-f6ae7f2dc386)
-![image](https://github.com/zorgonide/movieflix/assets/48021258/bf49d489-0123-4143-9b59-6d24f5dc0ba3)
 
-This application suggests movies based on genres selected using The Movie DB API. You can log in, review movies with comments, and interact with others on the platform. Makes browsing through Netflix a tiny bit easier.
+It is a web application that allows users to search and discover movies. The app utilizes the [Movie Database (TMDB)](https://www.themoviedb.org/) API to fetch movie data, and provides users with an intuitive interface to browse, search, and view details of movies.
 
+### Technologies used
 
-# Setup
+- React.js
+- react-router-dom
+- SASS
+- Axios
 
-Clone this repo – 
+### Getting started
 
-    git clone https://github.com/zorgonide/movieflix.git
-
-Move into project directory **movieflix**
-
-Run command – 
-
-    npm install
-
-This will install the node_modules folder
-
-Run command – 
-
-    npm run start-dev
-
-To run project on localhost:3000
-
+- Clone the repository to your local machine.
+- Navigate to the project directory and install dependencies using npm install or yarn install.
+- Obtain an API key from TMDB and add it to your .env file as REACT_APP_API_KEY=<YOUR_API_KEY>. a95fc70b1b67176c1e08456dd4021430
+- Start the development server using npm start or yarn start.
+- Open a web browser and go to http://localhost:3000 to view the Movie App.
